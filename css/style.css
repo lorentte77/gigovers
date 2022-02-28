@@ -37,8 +37,19 @@ nav .navbar .logo a {
   font-weight: normal;
   font-family: "Shizuru", cursive;
 }
+nav .navbar .logo a > span {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: "Shizuru", cursive;
+  font-weight: 700;
+  margin-left: 18px;
+}
 @media screen and (max-width: 500px) {
   nav .navbar .logo a {
+    font-size: 32px;
+  }
+  nav .navbar .logo a > span {
     font-size: 32px;
   }
 }
