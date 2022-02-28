@@ -37,6 +37,11 @@ nav .navbar .logo a {
   font-weight: normal;
   font-family: "Shizuru", cursive;
 }
+@media screen and (max-width: 500px) {
+  nav .navbar .logo a {
+    font-size: 32px;
+  }
+}
 nav .navbar .menu__list {
   z-index: 1;
   display: flex;
